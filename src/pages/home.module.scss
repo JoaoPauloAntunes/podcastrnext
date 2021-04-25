@@ -2,6 +2,8 @@
   padding: 0 4rem;
   height: calc(100vh - 6.5rem);
   overflow-y: scroll;
+  background-color: #000;
+  color: #FFF;
 
   h2 {
     margin-top: 3rem;
@@ -17,7 +19,7 @@
     gap: 1.5rem; // espaçamento entre as colunas
 
     li {
-      background: var(--white);
+      background: var(--gray-100);
       border: 1px solid var(--gray-100);
       padding: 1.25rem;
       border-radius: 1.5rem;
@@ -35,10 +37,11 @@
       .episodeDetails {
         flex: 1;
         margin-left: 1rem;
+        color: var(--gray-800);
         
         a {
-          display: block;
           color: var(--gray-800);
+          display: block;
           font-family: Lexend, sans-serif;
           font-weight: 600;
           text-decoration: none;
@@ -138,7 +141,7 @@
       }
 
       a {
-        color: var(--gray-800);
+        color: var(--white);
         font-family: Lexend, sans-serif;
         font-weight: 600;
         text-decoration: none;
